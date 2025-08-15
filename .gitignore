@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Sensitive key/cert files
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.keystore
+
+# Firebase/Functions local runtime config
+functions/.runtimeconfig.json
+
+# Firebase specific files
+*.bolt
+.firestore.rules
